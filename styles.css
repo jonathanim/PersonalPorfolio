@@ -1,0 +1,87 @@
+html {
+    padding:0;
+    margin: 0;
+}
+
+
+/* colors */
+
+/* Blackish: #202020
+
+Dark Grey: #3F3F3F
+
+Medium Grey: #707070
+
+Egg Yellow: #FFD6C
+
+White: #FFFFFF */
+
+
+h1, h2, h3 , h4, h5 {
+
+    font-family: 'Rubik', sans-serif;
+}
+
+p, body {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* Navigation css */
+
+.navbar {
+    padding: 10px;
+    background-color:#202020;
+}
+
+li.nav-item > a {
+    color: #ffffff !important;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 550;
+}
+
+li.nav-item > a:hover {
+    color: #ffdf6c !important;
+    text-decoration:wavy;
+
+}
+
+
+
+/* Home */
+
+#home {
+    background: #202020;
+}
+#h2Home {
+    color:#707070;
+} 
+
+#home > .row > .col > h1 {
+    color: white;
+}
+
+#home > .row > .col > h5{
+    color:  #FFDf6C;
+}
+
+.btn-custom-yl {
+    border: 3px solid #ffdf6c;
+}
+
+a.btn-home-cs{
+       text-decoration: none;
+       color:white;
+}
+    
+.btn-custom-yl:hover{
+    border: 3px solid white;
+    background-color: #ffdf6c;
+}
+
+.btn-custom-yl:hover > a.btn-home-cs{
+    color: black;
+}
+
+
