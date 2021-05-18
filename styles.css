@@ -1,9 +1,13 @@
-html {
+html, body {
     padding:0;
     margin: 0;
+    background-color:#202020;
+    height: 100%;
 }
 
-
+body {
+    padding-top: 70px;
+}
 /* colors */
 
 /* Blackish: #202020
@@ -48,21 +52,28 @@ li.nav-item > a:hover {
 }
 
 
+i.fas, i.far {
+    margin-right: 10px;
+    color:#ffdf6c;
+}
+
 
 /* Home */
 
 #home {
     background: #202020;
 }
+
 #h2Home {
     color:#707070;
 } 
 
-#home > .row > .col > h1 {
+#home h1 {
     color: white;
+    font-size: 4rem;
 }
 
-#home > .row > .col > h5{
+#home h3{
     color:  #FFDf6C;
 }
 
@@ -85,3 +96,145 @@ a.btn-home-cs{
 }
 
 
+.row-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.row-content-two {
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+/* animation */
+
+h2.ml8 {
+    font-weight: 900;
+    font-size: 4.5em;
+    color: #ffdf6c;
+    width: 2em;
+    height: 2em;
+  }
+  
+  .ml8 .letters-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 1em;
+  }
+  
+  .ml8 .letters {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    line-height: 0.7em;
+    right: -0.12em;
+    top: -0.2em;
+  }
+  
+  .ml8 .bang {
+    font-size: 1.4em;
+    top: auto;
+    left: -0.06em;
+  }
+  
+  .ml8 .circle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .ml8 .circle-white {
+    width: 3em;
+    height: 3em;
+    border: 2px dashed white;
+    border-radius: 2em;
+  }
+  
+  .ml8 .circle-dark {
+    width: 2.2em;
+    height: 2.2em;
+    background-color: black;
+    border-radius: 3em;
+    z-index: 1;
+  }
+  
+  .ml8 .circle-dark-dashed {
+    border-radius: 2.4em;
+    background-color: transparent;
+    border: 2px dashed white;
+    width: 2.3em;
+    height: 2.3em;
+  }
+
+  /* end animation */
+
+
+  /* Services */
+
+
+  #services {
+      background-color: #FFDf6C;
+      color: #;
+  }
+
+  #services h2 {
+      font-weight: bolder;
+      font-size: 4rem;
+  }
+
+  hr.hrblack {
+   border: 2px solid #707070;
+   width:50%;
+   margin:10px auto;
+  }
+
+  hr.hrblack2 {
+    border: 2px solid #707070;
+    width:60%;
+    margin: 10px auto;
+   }
+
+   
+   .card {
+       border: 3px solid #202020;
+       background-color: #202020;
+       border-radius: 8%;
+       
+   }
+
+   .card-header {
+       border-bottom: 2px solid black;
+       background-color: #FFDf6C;
+
+   }
+
+   .card-header h3 {
+       color: black;
+       background-color:#ffdf6c;
+       font-size: 30px;
+       font-weight: 600;
+       text-shadow: 3px 2px white;
+   }
+
+   .card-footer {
+    border-bottom: 2px solid black;
+    background-color: #FFDf6C;
+    font-size: 20px;
+   }
+
+   .card-footer > button {
+       padding: 5px 10px;
+       font-size: 16px;
+       border-radius: 6%;
+       font-weight: 800;
+       text-shadow: 1px 1px white;
+       letter-spacing: 2px;
+   }
+
+   
