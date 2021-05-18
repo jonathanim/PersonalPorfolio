@@ -44,3 +44,47 @@ anime({
     easing: "linear",
     loop: true
 });
+
+
+$(function () {
+    $(".btnCustomExpand1").click(function () {
+        $("p#btnPara1").toggle();
+    });
+    $(".btnCustomExpand2").click(function () {
+        $("p#btnPara2").toggle();
+    });
+    $(".btnCustomExpand3").click(function () {
+        $("p#btnPara3").toggle();
+    });
+    $(".btnCustomExpand4").click(function () {
+        $("p#btnPara4").toggle();
+    });
+    $(".btnCustomExpand5").click(function () {
+        $("p#btnPara5").toggle();
+    });
+    $(".btnCustomExpand6").click(function () {
+        $("p#btnPara6").toggle();
+    });
+
+});
+
+
+
+// trying to create a better code for the top function
+// const myFunctionClick = () => {
+//     let buttons = document.querySelectorAll(".card-footer > button");
+//     let btnParas = document.querySelectorAll(".card-body > p");
+//     let buttonsArr = []
+//     let btnParasArr = []
+
+//     for (let i = 0; i < buttons.length; i++) {
+//         buttonsArr.push(buttons[i])
+//         btnParasArr.push(btnParas[i])
+//     }
+
+
+
+// }
+
+
+

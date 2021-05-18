@@ -180,12 +180,12 @@ h2.ml8 {
 
   #services {
       background-color: #FFDf6C;
-      color: #;
   }
 
   #services h2 {
       font-weight: bolder;
       font-size: 4rem;
+      text-shadow: 2px 2px white;
   }
 
   hr.hrblack {
@@ -237,4 +237,8 @@ h2.ml8 {
        letter-spacing: 2px;
    }
 
-   
+
+.card-body > p{
+    display:none;
+    text-align: center
+}
