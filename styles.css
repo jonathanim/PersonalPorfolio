@@ -320,3 +320,18 @@ button.btn.btn-primary.btn-custom-yl:hover {
 }
 
 /* contact end */
+
+
+/* site footer */
+
+
+.site-footer {
+    background-color:#ffffff;
+    margin-top: 50px;
+    padding: 40px 20px;
+}
+
+
+.fa > i{
+    font-size: 50px;
+}
