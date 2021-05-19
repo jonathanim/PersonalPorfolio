@@ -251,6 +251,9 @@ h2.ml8 {
 
     #about {
         background-color: #202020;
+        padding-bottom: 70px;
+        margin-bottom: 100px;
+        color: #ffffff;
 
     }
 
@@ -265,13 +268,64 @@ h2.ml8 {
         border: 2px solid white;
         width:50%;
         margin:10px auto;
-       }
+    }
      
-       hr.hrblack2 {
+     hr.hrblack2 {
          border: 2px solid white;
          width:60%;
          margin: 10px auto;
-        }
+     }
+
+     .tab-content {
+         border: 2px solid #ffffff;
+         padding: 50px;
+         
+     }
+
+     #pills-tab {
+         border: 2px solid white;
+     }
+     
+     #pills-who-tab {
+        margin: 2px 2px;
+        padding: 15px 35px;
+        color: white;
+     }
+
+     #pills-experience-tab {
+        margin: 2px 0;
+        padding: 15px 35px;
+        color: white;
+
+     }
+
+     #pills-hobby-tab {
+        margin: 2px 2px;
+        padding: 15px 35px;
+        color: white;
+     }
+
+
+
+     #pills-who-tab:hover {
+      background-color:#ffdf6c;
+      color: #202020
+     }
+
+     #pills-experience-tab:hover {
+        background-color:#ffdf6c;
+        color: #202020
+     }
+     
+
+     #pills-hobby-tab:hover {
+         background-color: #ffdf6c;
+         color: #202020
+     }
+
+
+
+
 /* About end */
 
 

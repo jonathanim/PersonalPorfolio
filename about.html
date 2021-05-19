@@ -13,11 +13,13 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/40079c6bef.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
-    <title>Contact</title>
+    <title>Jonathan Im</title>
 </head>
 
 <body>
-    <nav>
+
+    <!-- navigation -->
+    <nav id="navigation">
         <div class="container">
             <div class="row justify-content-center row-content">
                 <div class="col-12">
@@ -40,10 +42,10 @@
                                             class="fas fa-briefcase"></i>Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i>About</a>
+                                    <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i>About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#contact"><i class="far fa-id-card"></i>Contact</a>
+                                    <a class="nav-link" href="contact.html"><i class="far fa-id-card"></i>Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -52,97 +54,58 @@
 
             </div>
     </nav>
-    <div id="contact" class="container p-3">
-        <div class="row row-content text-center">
-            <div class="col">
-                <h2>
-                    Contact me
-                </h2>
-            </div>
-
-        </div>
-
-        <div class="row row-content text-center">
-            <div class="col">
-                <h4>
-                    Love to hear from you!
-                </h4>
-                <h5>
-                    Leave me some feedback!!
-                </h5>
+    <!-- About -->
+    <div id="about" class="container-fluid">
+        <div class="row justify-content-center row-content">
+            <div class="col-12 col-md-6 text-center">
+                <h2>About</h2>
+                <hr class="hrblack" size="25">
+                <hr class="hrblack2">
             </div>
         </div>
-
-        <div class="row row-content">
-            <div class="col-md-10">
-                <form>
-                    <div class="form-group row">
-                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="firstName" name="firstName"
-                                placeholder="First Name" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="lastName" name="lastName"
-                                placeholder="Last Name" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
-                        <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="areaCode" name="areaCode"
-                                placeholder="Area code" />
-                        </div>
-                        <div class="col-7">
-                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="email" class="col-md-2 col-form-label">Email</label>
-                        <div class="col-md-10">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col offset-md-2">
-                            May we contact you?
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios"
-                                    value="yes" />
-                                <label for="contactYes" class="form-check-label">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios"
-                                    value="no" />
-                                <label for="contactNo" class="form-check-label">No</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
-                        <div class="col-md-10">
-                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group row text-center">
-                        <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary btn-custom-yl">Send Feedback</button>
-                        </div>
-                    </div>
-                </form>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 text-center">
+                <ul class="nav nav-pills justify-content-between" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-who-tab" data-toggle="pill" href="#pills-who" role="tab"
+                            aria-controls="pills-who" aria-selected="true">Who am I?</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-experience-tab" data-toggle="pill" href="#pills-experience"
+                            role="tab" aria-controls="pills-experience" aria-selected="false">My Experience</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-hobby-tab" data-toggle="pill" href="#pills-hobby" role="tab"
+                            aria-controls="pills-hobby" aria-selected="false">My Hobbies</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-who" role="tabpanel"
+                        aria-labelledby="pills-who-tab">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Repudiandae cumque enim quidem neque, placeat quos distinctio magni dignissimos doloremque. Iste
+                        dolor commodi dignissimos quibusdam modi soluta voluptas beatae labore. Beatae vero suscipit ad
+                        accusamus voluptatem consequatur blanditiis quidem inventore laboriosam error voluptas non,
+                        mollitia aliquam? Voluptatum pariatur ad excepturi cumque.</div>
+                    <div class="tab-pane fade" id="pills-experience" role="tabpanel"
+                        aria-labelledby="pills-experience-tab">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolores ab excepturi
+                        temporibus tempora ipsam ipsa delectus commodi cum. Id ab, voluptatibus possimus aliquid quaerat
+                        aperiam perspiciatis tenetur omnis numquam similique commodi, quos sed beatae veritatis optio,
+                        suscipit reiciendis iusto.</div>
+                    <div class="tab-pane fade" id="pills-hobby" role="tabpanel" aria-labelledby="pills-hobby-tab">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione veritatis deserunt minus amet
+                        beatae ipsa, commodi temporibus pariatur at exercitationem placeat quod laboriosam perspiciatis
+                        incidunt odit, mollitia, quibusdam eaque voluptas.</div>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- SITE FOOTER -->
-
+    <!-- footer -->
     <footer class="site-footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
+                <div class="col-4 col-sm-2 col-lg-4 offset-1">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="index.html">Home</a></li>
@@ -151,7 +114,7 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-sm-5 text-center">
+                <div class="col-6 col-sm-5 col-lg-4 text-center">
                     <h5>Social</h5>
                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/_jon_im"><i
                             class="fa fa-instagram fa-3x"></i></a>
@@ -162,7 +125,7 @@
                     <a class="btn btn-social-icon btn-github" href="https://github.com/jonathanim"><i
                             class="fa fa-github fa-3x"></i></a>
                 </div>
-                <div class="col-sm-4 text-center">
+                <div class="col-sm-5 col-lg-4 text-center">
                     <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
                         714-232-0818</a><br />
                     <a role="button" class="btn btn-link" href="mailto:imjonathan.work@gmail.com"><i
@@ -173,6 +136,7 @@
 
         </div>
     </footer>
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -186,6 +150,8 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="index.js"></script>
+
+
 </body>
 
 </html>

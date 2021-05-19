@@ -65,9 +65,7 @@ $(function () {
     $(".btnCustomExpand6").click(function () {
         $("p#btnPara6").toggle();
     });
-
 });
-
 
 
 // trying to create a better code for the top function
