@@ -68,6 +68,9 @@ $(function () {
 });
 
 
+
+
+
 // trying to create a better code for the top function
 // const myFunctionClick = () => {
 //     let buttons = document.querySelectorAll(".card-footer > button");
