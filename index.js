@@ -47,6 +47,7 @@ anime({
 
 
 $(function () {
+
     $(".btnCustomExpand1").click(function () {
         $("p#btnPara1").toggle();
     });
@@ -65,6 +66,13 @@ $(function () {
     $(".btnCustomExpand6").click(function () {
         $("p#btnPara6").toggle();
     });
+
+
+    $("#btnContact").click(function () {
+        $("#myModal").modal("show");
+    })
+
+    $('.carousel').carousel();
 });
 
 
