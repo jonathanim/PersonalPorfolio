@@ -391,3 +391,18 @@ button.btn.btn-primary.btn-custom-yl:hover {
 }
 
 
+/* my Projects */
+
+
+.myProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #FFDf6C;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: 2px solid white;
+    color: black;
+    font-size: 3rem;
+}
